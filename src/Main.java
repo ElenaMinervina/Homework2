@@ -4,6 +4,7 @@ public class Main {
         Variables4();
         Variables5();
         Variables6_7();
+        Variables8();
     }
     public static void Variables1_3() {
         var dog = 8.0;
@@ -55,5 +56,14 @@ public class Main {
         var differenceBetweenWeightsDivision = weightBoxer2 % weightBoxer1;
         System.out.println("Разница между весами бойцов вычитанием " + differenceBetweenWeightsSubtraction +" кг.");
         System.out.println("Разница между весами бойцов делением " + differenceBetweenWeightsDivision + " кг.");
+    }
+    public static void Variables8() {
+        var totalNumberOfHours = 640;
+        var workingHours = 8;
+        var totalEmployees = totalNumberOfHours/workingHours;
+        System.out.println("Всего работниов в компании - " + totalEmployees+ " человек");
+        totalEmployees = totalEmployees + 94;
+        totalNumberOfHours= workingHours*totalEmployees;
+        System.out.println("Если в компании работает "+ totalEmployees + " человек, то всего " + totalNumberOfHours + " часов работы может быть поделено между сотрудниками.");
     }
 }
