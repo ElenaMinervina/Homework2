@@ -66,4 +66,5 @@ public class Main {
         totalNumberOfHours= workingHours*totalEmployees;
         System.out.println("Если в компании работает "+ totalEmployees + " человек, то всего " + totalNumberOfHours + " часов работы может быть поделено между сотрудниками.");
     }
+
 }
