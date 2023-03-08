@@ -5,7 +5,6 @@ public class Main {
         Variables5();
         Variables6_7();
         Variables8();
-        Variables9();
     }
     public static void Variables1_3() {
         var dog = 8.0;
@@ -67,8 +66,5 @@ public class Main {
         totalNumberOfHours= workingHours*totalEmployees;
         System.out.println("Если в компании работает "+ totalEmployees + " человек, то всего " + totalNumberOfHours + " часов работы может быть поделено между сотрудниками.");
     }
-    public static void Variables9() {
-        System.out.println("_______________________________________________________________________________");
-        System.out.println("Увлеклась не сложным заданием и не сделала отдельную ветку. больше так не буду!");
-    }
+
 }
